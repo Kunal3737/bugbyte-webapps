@@ -1,0 +1,380 @@
+.main-screen_1 {
+  display: flex;
+  width: 100%;
+  width: 80%;
+  margin: 0 auto;
+  height: calc(100vh - 56px);
+
+  &-panels {
+    width: 50%;
+    height: 100%;
+    display: flex;
+  }
+
+  .left-panel {
+    flex-direction: column;
+    justify-content: center;
+
+    .title {
+      font-size: 3rem;
+      line-height: 1;
+      letter-spacing: -0.025em;
+      font-weight: 400;
+    }
+
+    .description {
+      font-size: 1.125rem;
+      line-height: 1.75rem;
+      margin-top: 1.25rem;
+      color: rgba(#000, 0.6);
+    }
+
+    .apply-now-for-free {
+      margin-top: 2.5rem;
+      border-radius: 0.375rem;
+      height: 48px;
+      width: 250px;
+      background-color: #b10107;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: none;
+      color: #fff;
+      font-size: 1rem;
+      font-weight: 500;
+    }
+  }
+  .right-panel {
+    align-items: center;
+    justify-content: center;
+    padding-left: 100px;
+
+    .studing-image {
+      height: 500px;
+      width: 500px;
+      border-radius: 50%;
+      border: 2px solid red;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+.seperator {
+  height: 16px;
+  width: 100%;
+  background-color: #b10107;
+}
+
+.main-screen_2 {
+  height: calc(100vh - 100px);
+  padding: 80px 0;
+
+  background-color: #000;
+
+  .path-to-success {
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0.75rem;
+    color: #fafafa;
+
+    .title {
+      font-size: 3rem;
+      line-height: 1;
+      margin-bottom: 12px;
+    }
+
+    .subtitle {
+      color: #cecece;
+      font-size: 1.125rem;
+      line-height: 1.75rem;
+      text-align: center;
+    }
+  }
+
+  .success-key {
+    width: 1050px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0 0 0;
+    color: #fafafa;
+
+    &--item {
+      width: 300px;
+      height: 172px;
+      //   border: 2px solid green;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      .success-key--icon {
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .success-key-description {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        margin-top: 20px;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.main-screen_3 {
+  background-color: #b10107;
+  height: 510px;
+
+  .courses {
+    width: 840px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    // border: 2px solid #fff;
+    color: #fafafa;
+
+    .our_courses {
+      padding-top: 4rem;
+      padding-bottom: 3rem;
+      font-size: 2.25rem;
+      line-height: 2.5rem;
+      font-weight: 500;
+    }
+
+    .course-card {
+      width: 404px;
+      height: 265px;
+      background-color: #fff;
+      color: #000;
+      border: 4px solid transparent;
+      border-radius: 10px;
+
+      &__wrapper {
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+        width: 100%;
+        justify-content: space-between;
+      }
+
+      &--upper-content {
+        height: 178px;
+        padding: 24px;
+        display: flex;
+      }
+
+      &-image {
+        height: 96px;
+        width: 96px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      &-content {
+        flex: 1;
+        padding-left: 30px;
+
+        .full-stack-title {
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          font-size: 0.875rem;
+          line-height: 1.25rem;
+          font-weight: 700;
+        }
+
+        .web-development {
+          font-size: 1.875rem;
+          line-height: 2.25rem;
+          font-weight: 700;
+        }
+
+        .timimg {
+          border-radius: 0.375rem;
+          padding: 0.25rem;
+          font-size: 0.875rem;
+          line-height: 1.25rem;
+          font-weight: 500;
+          background-color: #000;
+          color: #fff;
+          margin-top: 8px;
+          align-items: center;
+          display: inline-flex;
+        }
+      }
+
+      .card-footer {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        display: flex;
+
+        .start-date {
+          flex: 1;
+          padding-top: 1rem;
+          font-size: 0.875rem;
+          line-height: 1.25rem;
+          font-weight: 500;
+          justify-content: flex-start;
+          align-items: flex-start;
+          display: inline-flex;
+          flex-direction: column;
+          color: #b10107;
+
+          .date {
+            font-size: 1.25rem;
+            line-height: 1.75rem;
+            font-weight: 500;
+            display: block;
+          }
+        }
+
+        .arrow {
+          display: inline-flex;
+          align-items: flex-end;
+          justify-content: center;
+          height: 34px;
+          width: 34px;
+          border-radius: 50%;
+          background-color: #b10107;
+          color: #fff;
+          font-size: 30px;
+
+          &-wrapper {
+            display: inline-flex;
+            align-items: flex-end;
+            justify-content: flex-end;
+            flex: 1;
+          }
+        }
+      }
+    }
+  }
+}
+
+.main-screen_4 {
+  height: 636px;
+  padding: 80px 0;
+  width: 1000px;
+  text-align: center;
+  margin: 0 auto;
+
+  .course-fee {
+    font-size: 3rem;
+    line-height: 1;
+    letter-spacing: -0.025em;
+    font-weight: 500;
+  }
+
+  .course-description {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    letter-spacing: -0.025em;
+    margin-top: 1rem;
+    color: #b10107;
+    font-weight: 500;
+  }
+
+  .course-fee-lower-wrapper {
+    margin-top: 80px;
+    display: flex;
+  }
+
+  .course-fee-content {
+    width: 50%;
+  }
+
+  .second-section {
+    margin-top: 40px;
+  }
+
+  .fee-details {
+    font-size: 1.25rem;
+    line-height: 2rem;
+    text-align: start;
+    font-weight: 400;
+  }
+
+  .know-more {
+    margin-top: 20px;
+    text-align: start;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+    text-decoration: underline;
+    color: #b10107;
+  }
+}
+
+.color--red {
+  color: #b10107;
+  font-weight: 600;
+}
+
+.main-screen_5 {
+  height: 518px;
+  padding: 80px 0;
+  color: #fff;
+  background-color: #000;
+  text-align: center;
+
+  .how-to-apply__wrapper {
+    margin: 0 auto;
+    width: 1050px;
+  }
+
+  .how-to-apply {
+    font-size: 3rem;
+    line-height: 1;
+    margin-bottom: 4rem;
+  }
+
+  .applying-steps__wrapper {
+    height: 175px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .card {
+    width: 325px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image {
+    height: 96px;
+    width: 96px;
+    border: 2px solid red;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card-text {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+  }
+
+  .apply-now-pointer {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}
