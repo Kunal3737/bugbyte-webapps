@@ -159,6 +159,59 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      <section className="main-screen_6">
+        <div className="height-152">
+          <div className="ready-to-crack">Ready to crack the code?</div>
+          <button className="apply-now">Apply Now</button>
+        </div>
+      </section>
+
+      <section className="main-screen_7">
+        <div className="footer-wrapper">
+          <div className="footer-column">
+            <div className="footer-title">COMPANY</div>
+            <article>
+              <ul>
+                <li>About</li>
+                <li>Newsroom</li>
+                <li>Terms of Service</li>
+                <li>Contact</li>
+              </ul>
+            </article>
+          </div>
+          <div className="footer-column">
+            <div className="footer-title">STUDENTS RESOURCES</div>
+            <article>
+              <ul>
+                <li>Alumni Directory</li>
+                <li>Blog</li>
+                <li>Masai 101</li>
+                <li>Testimonials</li>
+                <li>Fees & ISA</li>
+                <li>FAQ</li>
+                <li>Masai Bootcamp</li>
+              </ul>
+            </article>
+          </div>
+          <div className="footer-column">
+            <div className="footer-title">OPPORTUNITIES</div>
+            <article>
+              <ul>
+                <li>We're Hiring</li>
+                <li>Our Industry Mentors</li>
+                <li>Become an Industry Mentor</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+
+        <div className="follow-us-wrapper">
+          <div>
+            <span className="follow-us">FOLLOW US:</span>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };
